@@ -28,7 +28,7 @@ end
 
   def count_sentences
     binding.pry
-    self.split(". ").count
-    complex_string = 
+   complex_string = self.split(". ").count
+    
   end
 end
