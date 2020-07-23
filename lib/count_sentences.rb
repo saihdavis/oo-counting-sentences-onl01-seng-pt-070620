@@ -28,7 +28,7 @@ end
 
   def count_sentences
     binding.pry
-   complex_string = self.split(". ").count
+   complex_string = self.split(/.!?/).reject
     
   end
 end
